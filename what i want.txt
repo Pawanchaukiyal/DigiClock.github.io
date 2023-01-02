@@ -1,0 +1,9 @@
+
+1. Alaram facility-- done
+2. Also show the date.  -- done
+3. Time stamp.  --- left
+4. calendar.  -- done
+
+Html and javascript of this project is ok, but css of calendar and alarm is incomplete.
+we also work on their responsiveness.
+Also calendar not move prev and next month/

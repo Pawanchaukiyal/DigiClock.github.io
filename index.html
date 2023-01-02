@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link rel="stylesheet" href="clock.css" />
+  </head>
+  <body>
+    <div id="clockContainer">
+      <div id="hour"></div>
+      <div id="minute"></div>
+      <div id="second"></div>
+    </div>
+   
+    <!-- for calendar -->
+    <div class="container">
+      <div class="calendar">
+        <div class="month">
+          <i class="fas fa-angle-left prev"></i>
+          <div class="date">
+            <h1></h1>
+            <p></p>
+          </div>
+          <i class="fas fa-angle-right next"></i>
+        </div>
+        <div class="weekdays">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+        <div class="days"></div>
+      </div>
+    </div>
+
+       <!-- for digital clock and alarm -->
+    <div class="wrapper">
+      <h1>04:20:30 PM</h1>
+      <div class="content">
+        <div class="column">
+          <select>
+            <option value="Hour" selected hidden>Hour</option>
+            <!-- <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option> -->
+          </select>
+        </div>
+
+        <div class="column">
+          <select>
+            <!-- <option value="Minute" selected hidden>Minute</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option> -->
+          </select>
+        </div>
+
+        <div class="column">
+          <select>
+            <option value="Second" selected hidden>Second</option>
+            <!-- <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option> -->
+          </select>
+        </div>
+
+        <div class="column">
+          <select>
+            <option value="AM?PM" selected hidden></option>
+            <!-- <option value="AM">AM</option>
+                    <option value="PM">PM</option> -->
+          </select>
+        </div>
+      </div>
+      <button>Set Alarm</button>
+    </div>
+
+   
+
+    <script src="clock.js"></script>
+  </body>
+</html>
